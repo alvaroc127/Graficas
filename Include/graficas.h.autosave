@@ -1,0 +1,28 @@
+#ifndef GRAFICAS_H
+#define GRAFICAS_H
+
+#include "ofGraphics.h"
+#include "ofxLabel.h"
+
+
+class Graficas : ofxLabel{
+private :
+ std::vector<ofPolyline>  graficas;  
+ std::vector<float> valY;   
+ int margen=256;
+ 
+public:
+    
+ Graficas();
+ 
+ virtual ~Graficas();
+ 
+ bool mousePressed(ofMouseEventArgs &arg);
+ 
+ 
+ 
+ 
+ 
+    
+};
+#endif // GRAFICAS_H

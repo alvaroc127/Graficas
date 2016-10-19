@@ -1,0 +1,3 @@
+ofxHistoryPlot-master
+ofxUI-master
+ofxXmlSettings

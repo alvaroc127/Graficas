@@ -1,2 +1,2 @@
 # Graficas
-grafica
+graficas para presentar
