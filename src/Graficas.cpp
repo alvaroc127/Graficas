@@ -62,31 +62,31 @@ void Graficas::update(){
            ofxHistoryPlot *pl=graficas.at(i);
            switch(i){
                 case(0):
-                     pl->update((float)File.readFile(ip+ "\\" + "ECGSig1.txt"));
+                     pl->update((float)File.readFile(ip+ "\\" + "ECGSig1.bin"));
                    break;
 
                 case(1):
-                    pl->update((float)File.readFile(ip+ "\\" + "ECGSig2.txt"));
+                    pl->update((float)File.readFile(ip+ "\\" + "ECGSig2.bin"));
                     break;
 
                 case(2):
-                    pl->update((float)File.readFile(ip+ "\\" + "ECGSig3.txt"));
+                    pl->update((float)File.readFile(ip+ "\\" + "ECGSig3.bin"));
                     break;
 
                 case(3):
-                    pl->update((float)File.readFile(ip+ "\\" + "SPO2Sign.txt"));
+                    pl->update((float)File.readFile(ip+ "\\" + "SPO2Sign.bin"));
                     break;
 
                 case(4):
-                    pl->update((float)File.readFile(ip+ "\\" + "RESPSign.txt"));
+                    pl->update((float)File.readFile(ip+ "\\" + "RESPSign.bin"));
                     break;
 
                 case(5):
-                    pl->update((float)File.readFile(ip + "\\" + "ROJASign.txt"));
+                    pl->update((float)File.readFile(ip + "\\" + "ROJASign.bin"));
                     break;
 
                 case(6):
-                pl->update((float)File.readFile(ip+ "\\" + "AMARILLASign.txt"));
+                pl->update((float)File.readFile(ip+ "\\" + "AMARILLASign.bin"));
                     break;
              }
         }

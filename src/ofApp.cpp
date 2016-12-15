@@ -46,12 +46,12 @@ void ofApp::draw(){
                 break;
 
              case(1):
-                x-=ofGetWidth()/6;
+                x-=ofGetWidth()/4.9;
                  gra->draw(x,0,ofGetWidth(),ofGetHeight());
                  break;
 
              case(2):
-                 x-=ofGetWidth()/6;
+                 x-=ofGetWidth()/4.9;
                  gra->draw(x,0,ofGetWidth(),ofGetHeight());
                  break;
 
@@ -61,12 +61,12 @@ void ofApp::draw(){
                  break;
 
              case(4):
-            x-=ofGetWidth()/6;
+            x-=ofGetWidth()/4.9;
             gra->draw(x,(ofGetHeight()/15*7)+4,ofGetWidth(),ofGetHeight());
                  break;
 
              case(5):
-            x-=ofGetWidth()/6;
+            x-=ofGetWidth()/4.9;
             gra->draw(x,(ofGetHeight()/15*7)+4,ofGetWidth(),ofGetHeight());
                  break;
         }
